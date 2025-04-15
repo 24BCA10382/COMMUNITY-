@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faithful Haven</title>
+  <link rel="stylesheet" href="css.css">
+  <style>
+    /* Added background color for hosts section */
+    #hosts {
+      background-color: #f9f3f6; /* soft pastel pink tone */
+      padding: 50px 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Faithful Haven</div>
+    <nav>
+      <ul>
+        <li><a href="#mission">Our Mission</a></li>
+        <li><a href="#founder">Founder</a></li>
+        <li><a href="#hosts">Hosts</a></li>
+        <li><a href="#join">Join Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Faithful Haven</h1>
+    <p>A safe place for healing hearts and growing in faith</p>
+    <div class="verse-box">
+      <p id="verse"></p>
+    </div>
+  </section>
+
+  <section id="mission">
+    <h2>Our Mission</h2>
+    <p>
+      Faithful Haven isn’t just a community, it’s a space for healing, hope, and faith. 
+      We welcome anyone going through mental health struggles, no matter your age, gender, or background. 
+      Whether you’re in a dark place or simply seeking peace, you belong here.
+      <br><br>
+      This is a space for people who feel deeply, dream big, and sometimes feel lost or broken. 
+      At Faithful Haven, we believe healing comes not just from professional help, but also from shared stories, 
+      real connection, and growing in faith,together.
+      <br><br>
+      Let’s create a place where we lift each other up, see the world through new eyes, and remind each other 
+      that even in the middle of pain, hope and healing are possible.
+    </p>
+  </section>
+
+  <section id="founder">
+    <h2>Meet Our Founder</h2>
+    <div class="profile">
+      <img src="C:\Users\gladn\Desktop\project/lomathemba.jpg" alt="Lomathemba Irene Qoma">
+      <div>
+        <h3>Lomathemba Irene Qoma</h3>
+        <p>
+          Hi! I’m Lomathemba Irene Qoma, the person behind Faithful Haven. I’ve faced mental health struggles myself,
+          and I know what it feels like to want healing but not know where to start. That’s why I started building 
+          this space, a place where people can come together, be honest, and help each other heal through shared 
+          experiences and faith.
+          <br><br>
+          I’ve always dreamed of starting this community before turning 18,not because I have all the answers, 
+          but because I believe in the power of connection, love, and vulnerability. Faithful Haven isn’t launched yet, 
+          but it’s in the making,and that’s okay. What matters is the heart behind it.
+          <br><br>
+          I hope this becomes a place where people feel heard, seen, and held,even if they’re still figuring things out, 
+          just like me.
+          <br><br>
+          With love<br>
+          Lomathemba Irene Qoma
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="hosts">
+    <h2>Meet The Hosts</h2>
+    <ul class="hosts">
+      <li>
+        <img src="C:\Users\gladn\Desktop\project/mhlabase.jpg" alt="Mhlabase">
+        <p>Mhlabase – Faith & Encouragement Host</p>
+      </li>
+      <li>
+        <img src="C:\Users\gladn\Desktop\project/queenmgodie.jpg" alt="Queen">
+        <p>Queen – Creative & Healing Spaces Host</p>
+      </li>
+      <li>
+        <img src="C:\Users\gladn\Desktop\project/nyengo.jpg" alt="Nyengo">
+        <p>Nyengo – Community Connection Host</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="join">
+    <h2>Join Faithful Haven</h2>
+    <p>We believe healing happens in community. Come as you are, grow as we go.</p>
+    <button onclick="alert('Thank you for choosing to join us!')">Join Us</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Faithful Haven | Made with love & faith</p>
+  </footer>
+
+  <script src="java.js"></script>
+</body>
+</html>
