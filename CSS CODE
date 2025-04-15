@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f5fc;
+  color: #333;
+}
+
+header {
+  background-color: #7c4bc0;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #e7dfff;
+}
+
+.verse-box {
+  background: white;
+  padding: 10px;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  color: #7c4bc0;
+  font-style: italic;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff; /* White background for the profile */
+  border-radius: 10px; /* Rounded corners */
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  max-width: 600px; /* Limits the size of the founder's profile */
+  margin: 0 auto; /* Centers the profile */
+  transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.profile:hover {
+  transform: translateY(-10px); /* Hover effect */
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile div {
+  max-width: 400px; /* Limit text width for better readability */
+}
+
+.profile h3 {
+  font-size: 1.6em;
+  color: #7c4bc0; /* Matching the theme color */
+  margin-bottom: 10px;
+}
+
+.profile p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.hosts {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly; /* Distributes hosts evenly */
+  flex-wrap: wrap; /* Allows the hosts to wrap into new rows on smaller screens */
+  padding: 0;
+}
+
+.hosts li {
+  text-align: center;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a card effect */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  max-width: 200px; /* Limits the maximum width of each host box */
+  width: 100%; /* Ensures responsiveness */
+}
+
+.hosts li:hover {
+  transform: translateY(-10px); /* Adds a hover effect for interactivity */
+}
+
+.hosts img {
+  width: 120px; /* Slightly larger for better visibility */
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #7c4bc0; /* Adds a border around the images for emphasis */
+}
+
+.hosts p {
+  font-weight: bold;
+  color: #7c4bc0; /* Keeps the theme color */
+  margin-top: 10px;
+}
+
+button {
+  background-color: #7c4bc0;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #7c4bc0;
+  color: white;
+}
